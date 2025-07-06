@@ -15,6 +15,7 @@ const Nav = () => {
             src={headerLogo} alt="Logo" 
              width={130} height={30 }/>
         </a>
+        {/* try to fix line below maybe this line causing the error */}
         <ul className=' flex-1 flex
          justify-center items-center gap-16 max-lg:hidden '>
             {navLinks.map((item) => (
